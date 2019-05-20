@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="section3.css">
+	
+    <title>Bootstrap 4 Recipes</title>
+
+	
+</head>
+
+<body>
+	<!-- SECTION 3.4 -->
+    <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="logo.png" height="50px"></a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleContainer">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown02">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  <div class="container">
+	
+	<div class="row wf even" id="carousel">carousel</div>
+
+	<a name="services"></a> 
+	<div class="row odd" id="services">  <!-- Equal width -->
+	
+		<div class="col wf">
+		  <h2>Service 1</h2>
+		</div>
+		<div class="col wf">
+		  <h2>Service 2</h2>
+		</div>
+		<div class="col wf">
+		  <h2>Service 3</h2>
+		</div>	
+	</div>	
+
+	<a name="products"></a> 
+	<div class="row even" id="products"> <!-- Setting one column width -->
+		<div class="col wf">
+		  <h2 class="display-4">Product 1</h2>
+		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nibh nulla. Vestibulum aliquam commodo feugiat. </p>
+			<p>Etiam nisl tortor, sagittis non mollis non, pulvinar vel purus. Donec ut commodo nulla. Vivamus egestas eget ex eu mattis. Donec ut augue et dui tincidunt placerat non eget mauris. Integer sed porta lorem. Donec auctor bibendum odio. In hac habitasse platea dictumst. Phasellus molestie, ante id vehicula congue, nunc leo auctor dolor, vitae posuere turpis mi a lorem. Nullam metus tellus, lobortis sit amet eros quis, efficitur convallis orci. Vivamus eu suscipit neque, nec sollicitudin nunc.</p>
+		</div>
+		<div class="col-6 wf">
+		  <h2 class="display-3">Product 2</h2>
+		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nibh nulla. <mark>Vestibulum aliquam commodo feugiat.</mark> </p>
+			<p>Etiam nisl tortor, sagittis non mollis non, pulvinar vel purus. Donec ut commodo nulla. Vivamus egestas eget ex eu mattis. Donec ut augue et dui tincidunt placerat non eget mauris. <del>Integer sed porta lorem.</del> Donec auctor bibendum odio. In hac habitasse platea dictumst. <strong>Phasellus molestie</strong>, ante id vehicula congue, nunc leo auctor dolor, vitae posuere turpis mi a lorem. <em>Nullam metus tellus</em>, lobortis sit amet eros quis, efficitur convallis orci. <small>Vivamus eu suscipit neque, nec sollicitudin nunc.</small></p>
+		</div>
+		<div class="col wf">
+		  <h2 class="display-4">Product 3</h2>
+		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nibh nulla. Vestibulum aliquam commodo feugiat. </p>
+			<p>Etiam nisl tortor, sagittis non mollis non, pulvinar vel purus. Donec ut commodo nulla. Vivamus egestas eget ex eu mattis. Donec ut augue et dui tincidunt placerat non eget mauris. Integer sed porta lorem. Donec auctor bibendum odio. In hac habitasse platea dictumst. Phasellus molestie, ante id vehicula congue, nunc leo auctor dolor, vitae posuere turpis mi a lorem. Nullam metus tellus, lobortis sit amet eros quis, efficitur convallis orci. Vivamus eu suscipit neque, nec sollicitudin nunc.</p>
+		</div>	
+	</div>
+
+	<a name="team"></a>
+	<div class="row odd" id="team">  <!-- Equal width not divisible by 12 -->
+		<div class="col wf">
+		  Guy 1
+		</div>
+		<div class="col wf">
+		  Girl 2
+		</div>
+		<div class="col wf">
+		  Guy 3
+		</div>	
+		<div class="col wf">
+		  Girl 4
+		</div>	
+		<div class="col wf">
+		  Guy 5
+		</div>	
+		<div class="col wf">
+		  Girl 6
+		</div>	
+		<div class="col wf">
+		  Guy 7
+		</div>	
+	</div>
+
+	
+	<a name="contact"></a> 
+	<div class="row justify-content-md-center even" id="contact"> <!-- Variable width content -->
+		<div class="col-lg-2 wf">
+		
+		</div>
+		<div class="col col-12 col-md-auto wf">
+			<form method="post">
+				<h2>Contact Us</h2>
+				<div class="input-group mb-4">
+					<span class="input-group-addon">Name</span>
+					<input type="text" class="form-control">
+				</div>
+				<div class="input-group mb-4">
+					<span class="input-group-addon">eMail</span>
+					<input type="text" class="form-control">
+				</div>
+				<label>Message</label>
+				<textarea class="form-control mb-4" id="message" rows="3"></textarea>
+				<input type="submit" value="Send" class="btn btn-secondary"></input>
+			</form>
+		</div>
+		<div class="col-lg-2 wf">
+		 
+		</div>	
+	</div> 
+
+	<a name="projects"></a> 
+	<div class="row odd" id="portfolio"> 
+	  <div class="col wf">
+		<h2 class="display-3">Portfolio</h2>
+		<div id="accordion" role="tablist" aria-multiselectable="true">
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingOne">
+			  <h5 class="mb-0">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				  Project 1
+				</a>
+			  </h5>
+			</div>
+
+			<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+			  <div class="card-block">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit porta diam, ac varius libero ullamcorper nec. Etiam sollicitudin in metus ut hendrerit. Vestibulum eleifend bibendum est id ullamcorper. Ut accumsan iaculis risus, sed tempor nunc luctus sit amet. Aliquam erat volutpat. Sed odio erat, vehicula sed volutpat eu, sagittis at elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pharetra leo tempus lectus tristique, eget rhoncus sem dignissim. Vestibulum turpis erat, interdum non fringilla nec, fringilla non magna.
+			  </div>
+			</div>
+		  </div>
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingTwo">
+			  <h5 class="mb-0">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				  Project 2
+				</a>
+			  </h5>
+			</div>
+			<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+			  <div class="card-block">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit porta diam, ac varius libero ullamcorper nec. Etiam sollicitudin in metus ut hendrerit. Vestibulum eleifend bibendum est id ullamcorper. Ut accumsan iaculis risus, sed tempor nunc luctus sit amet. Aliquam erat volutpat. Sed odio erat, vehicula sed volutpat eu, sagittis at elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pharetra leo tempus lectus tristique, eget rhoncus sem dignissim. Vestibulum turpis erat, interdum non fringilla nec, fringilla non magna.
+			  </div>
+			</div>
+		  </div>
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingThree">
+			  <h5 class="mb-0">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  Project 3
+				</a>
+			  </h5>
+			</div>
+			<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+			  <div class="card-block">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit porta diam, ac varius libero ullamcorper nec. Etiam sollicitudin in metus ut hendrerit. Vestibulum eleifend bibendum est id ullamcorper. Ut accumsan iaculis risus, sed tempor nunc luctus sit amet. Aliquam erat volutpat. Sed odio erat, vehicula sed volutpat eu, sagittis at elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pharetra leo tempus lectus tristique, eget rhoncus sem dignissim. Vestibulum turpis erat, interdum non fringilla nec, fringilla non magna.
+			  </div>
+			</div>
+		  </div>
+		</div>	
+	  </div>
+	</div>
+
+	<a name="testimonials"></a> 
+	<div class="row align-items-center light" id="testimonials"> <!-- Stacked to horizontal -->
+	  <div class="col-sm wf">
+		<blockquote class="blockquote">
+		  <p>I love the system and I use it daily. It is definitely one of the best software tools I have bought in a very long time.</p>
+		  <footer class="blockquote-footer">Albert Zweistein <cite title="Source Title">Theory of Recipes</cite></footer>
+		</blockquote>
+	  </div>
+	  <div class="col-sm wf">
+		<blockquote class="blockquote text-right">
+		  <p>I love the system and I use it daily. It is definitely one of the best software tools I have bought in a very long time.</p>
+		  <footer class="blockquote-footer">Albert Zweistein <cite title="Source Title">Theory of Recipes</cite></footer>
+		</blockquote>
+	  </div>
+	</div>
+
+	<div class="row align-items-center light" id="testimonials"> <!-- Stacked to horizontal -->
+	  <div class="col-sm wf">
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a class="nav-link active" href="#">Item 1</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Item 2</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Item 3</a></li>
+		</ul>
+ 	  </div>
+
+	</div>
+
+	<a name="pricing"></a> 
+	<div class="row odd" id="pricing"> <!-- Mix and match -->
+		<div class="col-6 col-md-4 wf">
+            <h2>Price 1</h2>
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        FREE</h4>
+                </div>
+                <div class="card-body text-center">
+                    <p class="lead">
+                        <strong>$0</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item list-group-item-success">Personal use</li>
+                    <li class="list-group-item list-group-item-success">10 projects</li>
+                    <li class="list-group-item list-group-item-success">Limited support</li>
+                </ul>
+                <div class="card-footer">
+                   <button type="button" class="btn btn-success btn-block">SIGNUP!</button>
+                </div>
+            </div>
+		</div>
+		<div class="col-6 col-md-4 wf">
+            <h2>Price 2</h2>
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        DEVELOPER</h4>
+                </div>
+                <div class="card-body text-center">
+                    <p class="lead">
+                        <strong>$10 / month</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">Business use</li>
+                    <li class="list-group-item">100 projects</li>
+                    <li class="list-group-item">24/7 support</li>
+                </ul>
+                <div class="card-footer">
+                   <button type="button" class="btn btn-danger btn-block">BUY NOW!</button>
+                </div>
+            </div>
+		</div>
+		<div class="col-6 col-md-4 wf">
+            <h2>Price 3</h2>
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        PROFESSIONAL</h4>
+                </div>
+                <div class="card-body text-center">
+                    <p class="lead">
+                        <strong>$100 / month</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item list-group-item-success">Business use</li>
+                    <li class="list-group-item list-group-item-success">Unlimited projects</li>
+                    <li class="list-group-item list-group-item-success">24/7 support</li>
+                </ul>
+                <div class="card-footer">
+                   <button type="button" class="btn btn-success btn-block">BUY NOW!</button>
+                </div>
+            </div>
+		</div>
+	</div>
+	
+  </div><!-- /.container -->
+
+  
+  <!-- SECTION 3.5 -->
+  <footer>
+	<div class="container-fluid dark">
+	  <div class="container">
+		<div class="row">
+			<div class="col">
+				  <address>
+					<strong><a href="#">Thrandur</a></strong><br />
+					Reykjabraut 23<br />
+					815 Þorlákshöfn<br />
+					thrandur@thrandur.net
+				  </address>			
+			</div>
+			<div class="col">
+                <ul class="list-unstyled">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+			</div>
+			<div class="col">
+                <ul class="list-unstyled">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>				
+			</div>
+		</div>
+	  </div>
+	</div>
+  </footer> 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

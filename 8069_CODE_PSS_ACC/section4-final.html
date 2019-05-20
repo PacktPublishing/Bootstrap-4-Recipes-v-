@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="section4.css">
+	
+    <title>Bootstrap 4 Recipes</title>
+
+	
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="logo.png" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown07">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-md-0">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+	
+  <div class="container">
+	
+	<div class="row wf even" id="carousel">
+	
+		<div id="carouselExample" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExample" data-slide-to="1"></li>
+			<li data-target="#carouselExample" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img class="d-block img-fluid" src="4x4-offroads-1.png" alt="First slide">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block img-fluid" src="4x4-offroads-2.png" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block img-fluid" src="4x4-offroads-3.png" alt="Third slide">
+			</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+  
+        </div>
+	
+	</div>
+
+	<a name="services"></a> 
+	<div class="row odd" id="services">  <!-- Equal width -->
+		<div class="col my-auto">
+			<table class="table table-bordered table-hover">
+			  <thead class="thead-inverse">
+				<tr>
+				  <th>Service 1</th>
+				  <th>Service 2</th>
+				  <th>Service 3</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <td>100$</td>
+				  <td>150$</td>
+				  <td>990$</td>
+				</tr>
+				<tr>
+				  <td>Donec ut commodo nulla. Vivamus egestas eget ex eu mattis. Donec ut augue et dui tincidunt placerat non eget mauris. Integer sed porta lorem. Donec auctor bibendum odio. </td>
+				  <td>Commodo nulla. Vivamus egestas eget ex eu mattis. Donec ut augue et dui tincidunt placerat non eget mauris. Integer sed porta lorem. Donec auctor bibendum odio. </td>
+				  <td>Vivamus egestas eget ex eu mattis. Donec ut augue et dui tincidunt placerat non eget mauris. Integer sed porta lorem. Donec auctor bibendum odio. </td>
+				</tr>
+				<tr>
+				  <td>Contact us!</td>
+				  <td>Get it now!</td>
+				  <td>For the advanced :)</td>
+				</tr>
+			  </tbody>
+			</table>
+		</div>	
+	</div>	
+
+	<a name="products"></a> 
+	<div class="row even" id="products"> <!-- Setting one column width -->
+		<div class="col wf">
+		  <h2 class="display-4">Product 1</h2>
+		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nibh nulla. Vestibulum aliquam commodo feugiat. </p>
+			<p>Etiam nisl tortor, sagittis non mollis non, pulvinar vel purus. Donec ut commodo nulla. Vivamus egestas eget ex eu mattis. Donec ut augue et dui tincidunt placerat non eget mauris. Integer sed porta lorem. Donec auctor bibendum odio. In hac habitasse platea dictumst. Phasellus molestie, ante id vehicula congue, nunc leo auctor dolor, vitae posuere turpis mi a lorem. Nullam metus tellus, lobortis sit amet eros quis, efficitur convallis orci. Vivamus eu suscipit neque, nec sollicitudin nunc.</p>
+		</div>
+		<div class="col-6 wf">
+		  <h2 class="display-3">Product 2</h2>
+		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nibh nulla. </p>
+
+		  <figure class="figure">
+			  <img src="light.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+			  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+		  </figure>
+		  
+		</div>
+		<div class="col wf">
+		  <h2 class="display-4">Product 3</h2>
+		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nibh nulla. Vestibulum aliquam commodo feugiat. </p>
+			<p>Etiam nisl tortor, sagittis non mollis non, pulvinar vel purus. Donec ut commodo nulla. Vivamus egestas eget ex eu mattis. Donec ut augue et dui tincidunt placerat non eget mauris. Integer sed porta lorem. Donec auctor bibendum odio. In hac habitasse platea dictumst. Phasellus molestie, ante id vehicula congue, nunc leo auctor dolor, vitae posuere turpis mi a lorem. Nullam metus tellus, lobortis sit amet eros quis, efficitur convallis orci. Vivamus eu suscipit neque, nec sollicitudin nunc.</p>
+		</div>	
+	</div>
+
+	<a name="team"></a>
+	<div class="row odd" id="team">
+		<div class="col-12">
+			<h2 class="display-4">Team</h2>
+		</div>
+
+		<div class="col-md-3">
+			<div id="list-team" class="list-group">
+			  <a class="list-group-item list-group-item-action" href="#list-item-1">Girl 1</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-2">Guy 2</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-3">Girl 3</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-4">Guy 4</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-5">Girl 5</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-6">Guy 6</a>
+			  <a class="list-group-item list-group-item-action" href="#list-item-7">Girl 7</a>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div data-spy="scroll" data-target="#list-team" data-offset="0" class="scrollspy">
+				<div class="media mt-2" id="list-item-1">
+				  <img src="girl.jpg" class="img-thumbnail mr-3" width="200px">
+				  <div class="media-body">
+					<h5 class="mt-0">Girl 1</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+				<div class="media mt-2"  id="list-item-2">
+				  <img src="guy.jpg" class="img-thumbnail mr-3" width="200px">
+				  <div class="media-body">
+					<h5 class="mt-0">Guy 2</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+				<div class="media mt-2" id="list-item-3">
+				  <img src="girl.jpg" class="img-thumbnail mr-3" width="200px">
+				  <div class="media-body">
+					<h5 class="mt-0">Girl 3</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+				<div class="media mt-2"  id="list-item-4">
+				  <img src="guy.jpg" class="img-thumbnail mr-3" width="200px">
+				  <div class="media-body">
+					<h5 class="mt-0">Guy 4</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+				<div class="media mt-2" id="list-item-5">
+				  <img src="girl.jpg" class="img-thumbnail mr-3" width="200px">
+				  <div class="media-body">
+					<h5 class="mt-0">Girl 5</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+				<div class="media mt-2"  id="list-item-6">
+				  <img src="guy.jpg" class="img-thumbnail mr-3" width="200px">
+				  <div class="media-body">
+					<h5 class="mt-0">Guy 6</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+				<div class="media mt-2" id="list-item-7">
+				  <img src="girl.jpg" class="img-thumbnail mr-3" width="200px">
+				  <div class="media-body">
+					<h5 class="mt-0">Girl 7</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+	
+	<a name="contact"></a> 
+	<div class="row justify-content-md-center even" id="contact"> <!-- Variable width content -->
+		<div class="col-lg-2 wf">
+		
+		</div>
+		<div class="col col-12 col-md-auto wf">
+				<h2>Contact Us</h2>
+				<div class="input-group mb-4">
+					<span class="input-group-addon">Name</span>
+					<input type="text" class="form-control">
+				</div>
+				<div class="input-group mb-4">
+					<span class="input-group-addon">eMail</span>
+					<input type="text" class="form-control">
+				</div>
+				<label>Message</label>
+				<textarea class="form-control mb-4" id="message" rows="3"></textarea>
+				<input onclick="tglVisible()" type="submit" value="Send" class="btn btn-secondary"></input>
+				<div id="msgSent" class="alert alert-success alert-dismissable d-none">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+ 					Message sent successfully.
+				</div>
+		</div>
+		<div class="col-lg-2 wf">
+		 
+		</div>	
+	</div> 
+
+	<a name="projects"></a> 
+	<div class="row odd" id="portfolio"> 
+	  <div class="col wf">
+		<h2 class="display-3">Portfolio</h2>
+		<div id="accordion" role="tablist" aria-multiselectable="true">
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingOne">
+			  <h5 class="mb-0">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				  Project 1
+				</a>
+			  </h5>
+			</div>
+
+			<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+			  <div class="card-body">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit porta diam, ac varius libero ullamcorper nec. Etiam sollicitudin in metus ut hendrerit. Vestibulum eleifend bibendum est id ullamcorper. Ut accumsan iaculis risus, sed tempor nunc luctus sit amet. Aliquam erat volutpat. Sed odio erat, vehicula sed volutpat eu, sagittis at elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pharetra leo tempus lectus tristique, eget rhoncus sem dignissim. Vestibulum turpis erat, interdum non fringilla nec, fringilla non magna.
+			  </div>
+			</div>
+		  </div>
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingTwo">
+			  <h5 class="mb-0">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				  Project 2
+				</a>
+			  </h5>
+			</div>
+			<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+			  <div class="card-body">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit porta diam, ac varius libero ullamcorper nec. Etiam sollicitudin in metus ut hendrerit. Vestibulum eleifend bibendum est id ullamcorper. Ut accumsan iaculis risus, sed tempor nunc luctus sit amet. Aliquam erat volutpat. Sed odio erat, vehicula sed volutpat eu, sagittis at elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pharetra leo tempus lectus tristique, eget rhoncus sem dignissim. Vestibulum turpis erat, interdum non fringilla nec, fringilla non magna.
+			  </div>
+			</div>
+		  </div>
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingThree">
+			  <h5 class="mb-0">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  Project 3
+				</a>
+			  </h5>
+			</div>
+			<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+			  <div class="card-body">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit porta diam, ac varius libero ullamcorper nec. Etiam sollicitudin in metus ut hendrerit. Vestibulum eleifend bibendum est id ullamcorper. Ut accumsan iaculis risus, sed tempor nunc luctus sit amet. Aliquam erat volutpat. Sed odio erat, vehicula sed volutpat eu, sagittis at elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pharetra leo tempus lectus tristique, eget rhoncus sem dignissim. Vestibulum turpis erat, interdum non fringilla nec, fringilla non magna.
+			  </div>
+			</div>
+		  </div>
+		</div>	
+	  </div>
+	</div>
+
+	<a name="testimonials"></a> 
+	<div class="row align-items-center light" id="testimonials"> <!-- Stacked to horizontal -->
+	  <div class="col-sm wf">
+		<blockquote class="blockquote">
+		  <p>I love the system and I use it daily. It is definitely one of the best software tools I have bought in a very long time.</p>
+		  <footer class="blockquote-footer">Albert Zweistein <cite title="Source Title">Theory of Recipes</cite></footer>
+		</blockquote>
+	  </div>
+	  <div class="col-sm wf">
+		<blockquote class="blockquote text-right">
+		  <p>I love the system and I use it daily. It is definitely one of the best software tools I have bought in a very long time.</p>
+		  <footer class="blockquote-footer">Albert Zweistein <cite title="Source Title">Theory of Recipes</cite></footer>
+		</blockquote>
+	  </div>
+	</div>
+
+	<a name="pricing"></a> 
+	<div class="row odd" id="pricing"> <!-- Mix and match -->
+		<div class="col-6 col-md-4 wf">
+            <h2>Price 1</h2>
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        FREE</h4>
+                </div>
+                <div class="card-body text-center">
+                    <p class="lead">
+                        <strong>$0</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item list-group-item-success">Personal use</li>
+                    <li class="list-group-item list-group-item-success">10 projects</li>
+                    <li class="list-group-item list-group-item-success">Limited support</li>
+                </ul>
+                <div class="card-footer">
+                   <button type="button" class="btn btn-success btn-block">SIGNUP!</button>
+                </div>
+            </div>
+		</div>
+		<div class="col-6 col-md-4 wf">
+            <h2>Price 2</h2>
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        DEVELOPER</h4>
+                </div>
+                <div class="card-body text-center">
+                    <p class="lead">
+                        <strong>$10 / month</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">Business use</li>
+                    <li class="list-group-item">100 projects</li>
+                    <li class="list-group-item">24/7 support</li>
+                </ul>
+                <div class="card-footer">
+                   <button type="button" class="btn btn-danger btn-block">BUY NOW!</button>
+                </div>
+            </div>
+		</div>
+		<div class="col-6 col-md-4 wf">
+            <h2>Price 3</h2>
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        PROFESSIONAL</h4>
+                </div>
+                <div class="card-body text-center">
+                    <p class="lead">
+                        <strong>$100 / month</strong></p>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item list-group-item-success">Business use</li>
+                    <li class="list-group-item list-group-item-success">Unlimited projects</li>
+                    <li class="list-group-item list-group-item-success">24/7 support</li>
+                </ul>
+                <div class="card-footer">
+                   <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#BuyNow">BUY NOW!</button>
+                </div>
+				<!-- Modal -->
+				<div class="modal fade" id="BuyNow" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+					  </div>
+					  <div class="modal-body">
+						Congratulations on your purchase!
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+
+            </div>
+		</div>
+	</div>
+	
+	<a name="pricing"></a> 
+	<div class="row odd" id="pricing"> <!-- Mix and match -->
+		<div class="col">
+		  <div class="card-columns">
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        FREE</h4>
+					<p class="lead text-center">
+                        <strong>$0</strong></p>
+                </div>
+				<ul class="list-group list-group-flush text-center">
+					<li class="list-group-item list-group-item-success">Personal use</li>
+					<li class="list-group-item list-group-item-success">10 projects</li>
+					<li class="list-group-item list-group-item-success">Limited support</li>
+				</ul>
+                <div class="card-body text-center">
+                    
+                </div>
+
+                <div class="card-footer">
+                   <button type="button" class="btn btn-success btn-block">SIGNUP!</button>
+                </div>
+            </div>
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        DEVELOPER</h4>
+					<p class="lead text-center">
+                        <strong>$10 / month</strong></p>
+                </div>
+				<ul class="list-group list-group-flush text-center">
+					<li class="list-group-item">Business use</li>
+					<li class="list-group-item">100 projects</li>
+					<li class="list-group-item">24/7 support</li>
+				</ul>
+                <div class="card-body text-center">
+
+				</div>
+                <div class="card-footer">
+                   <button type="button" class="btn btn-danger btn-block">BUY NOW!</button>
+                </div>
+            </div>
+			<div class="card">
+                <div class="card-heading">
+                    <h4 class="text-center">
+                        PROFESSIONAL</h4>
+					<p class="lead text-center">
+                        <strong>$100 / month</strong></p>
+                </div>
+				<ul class="list-group list-group-flush text-center">
+					<li class="list-group-item list-group-item-success">Business use</li>
+					<li class="list-group-item list-group-item-success">Unlimited projects</li>
+					<li class="list-group-item list-group-item-success">24/7 support</li>
+				</ul>
+                <div class="card-body text-center">
+					<p class=" text-left">Suspendisse potenti. Duis sit amet nisl tempor, lobortis nisi at, fermentum lorem. Vestibulum pulvinar vehicula tortor, non eleifend urna luctus non. Sed sit amet diam sapien. Fusce elementum fermentum augue ac dignissim.</p>
+                </div>
+                <div class="card-footer">
+                   <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#BuyNow">BUY NOW!</button>
+                </div>
+				<!-- Modal -->
+				<div class="modal fade" id="BuyNow" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+					  </div>
+					  <div class="modal-body">
+						Congratulations on your purchase!
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+
+            </div>
+		</div>
+	</div>
+	
+  </div>
+
+  </div><!-- /.container -->
+  
+  <footer>
+	<div class="container-fluid dark">
+	  <div class="container">
+		<div class="row">
+			<div class="col">
+				  <address>
+					<strong><a href="#">Thrandur</a></strong><br />
+					Reykjabraut 23<br />
+					815 Þorlákshöfn<br />
+					thrandur@thrandur.net
+				  </address>			
+			</div>
+			<div class="col">
+                <ul class="list-unstyled">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+			</div>
+			<div class="col">
+                <ul class="list-unstyled">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>				
+			</div>
+		</div>
+	  </div>
+	</div>
+  </footer> 
+
+<script>
+function tglVisible() {
+   var x = document.getElementById('msgSent');
+   x.classList.toggle("d-none");
+}
+</script>  
+  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

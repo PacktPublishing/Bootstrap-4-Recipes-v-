@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="section2.css">
+	
+    <title>Bootstrap 4 Recipes</title>
+
+	
+  </head>
+
+  <body>
+
+	<!-- SECTION 2.1 -->
+  
+    <div class="container">
+	
+	<div class="row wf" id="carousel">carousel</div>
+
+	<div class="row" id="services">  <!-- Equal width -->
+	
+		<div class="col wf">
+		  Service 1
+		</div>
+		<div class="col wf">
+		  Service 2
+		</div>
+		<div class="col wf">
+		  Service 3
+		</div>	
+	</div>	
+
+	<div class="row" id="products"> <!-- Setting one column width -->
+		<div class="col flex-last wf">Product 1</div>
+		<div class="col-6 flex-first wf">Product 2</div>
+		<div class="col wf">Product 3</div>	
+	</div>
+
+	<div class="row" id="team">  <!-- Equal width not divisible by 12 -->
+		<div class="col wf">
+		  Guy 1
+		</div>
+		<div class="col wf">
+		  Girl 2
+		</div>
+		<div class="col wf">
+		  Guy 3
+		</div>	
+		<div class="col wf">
+		  Girl 4
+		</div>	
+		<div class="col wf">
+		  Guy 5
+		</div>	
+		<div class="col wf">
+		  Girl 6
+		</div>	
+		<div class="col wf">
+		  Guy 7
+		</div>	
+	</div>
+
+	<div class="row justify-content-md-center" id="contact"> <!-- Variable width content -->
+		<div class="col-lg-2 wf">
+		  Empty
+		</div>
+		<div class="col col-12 col-md-auto wf">
+		  Contact Us 
+		</div>
+		<div class="col-lg-2 wf">
+		  Empty
+		</div>	
+	</div> 
+	
+	<!-- SECTION 2.2 -->
+
+	<div class="row" id="portfolio"> <!-- Equal-width multi-row -->
+		<div class="col wf">Project 1</div>
+		<div class="col wf">Project 2</div>
+		<div class="col wf">Project 3</div>
+		<div class="w-100 d-md-none"></div>
+		<div class="col wf">Project 4</div>
+		<div class="col wf">Project 5</div>
+		<div class="col wf">Project 6</div>
+	</div>
+
+	<div class="row " id="testimonials"> <!-- Stacked to horizontal -->
+	  <div class="col-sm wf">Testimonial 1</div>
+	  <div class="col-sm wf">Testimonial 2</div>
+	</div>
+
+	<div class="row" id="pricing"> <!-- Mix and match -->
+		<div class="col-6 col-md-4 wf">Price 1</div>
+		<div class="col-6 col-md-4 wf">Price 2</div>
+		<div class="col-6 col-md-4 wf">Price 3</div>
+	</div>
+
+	<!-- SECTION 2.3 - How to offset Columns to Get that Exact Layout -->	
+
+	<div class="row" id="team"> 
+		<div class="col-md-4 wf">Girl 2</div>
+		<div class="col-md-4 wf">Girl 4</div>	
+		<div class="col-md-4 wf">Girl 6</div>	
+	</div>
+	
+	<!-- SECTION 2.4 - Nesting and Ordering Columns to Achieve a Complex Navigation Design -->
+
+	<div class="row" id="services">  <!-- Equal width -->
+		<div class="col order-12 wf">Service 1</div>
+		<div class="col order-1 wf">Service 2
+			<div class="row">
+			  <div class="col-8 order-2 ns">A</div>
+			  <div class="col-4 order-1 ns2">B</div>
+			</div>
+		</div>
+		<div class="col wf">Service 3</div>	
+	</div>	
+	
+	<!-- SECTION 2.5 - Employing the Flexbox Grid to Create Equal Height Columns -->
+
+    <div class="row">
+        <div class="col-4 ns">col-4 <br> Almost nothing!</div>
+        <div class="col-4 ns2">col-4 <br> The long and winding road that leads to your door will never disappear I've seen that road before it always leads me here lead me to you door the wild and windy night that the rain washed away has left a pool of tears crying for the day why leave me standing here let me know the way many times I've been alone and many times I've cried any way you'll never know the many ways I've tried but still they lead me back to the long winding road you left me standing here a long long time ago...</div>
+        <div class="col-4 ns">col-4 <br> Nothing to see here folks :)</div>
+    </div>  	
+	
+	<!-- center, start, end, around and between -->
+
+	<div class="row justify-content-center" id="team">  <!-- justify-content -->
+		<div class="col-md-2 wf ">
+		  Girl 2
+		</div>
+		<div class="col-md-2 wf ">
+		  Girl 4
+		</div>	
+		<div class="col-md-2 wf ">
+		  Girl 6
+		</div>	
+	</div>
+	
+	<!-- vertical alignment -->
+	
+	<div class="row align-items-start wf">
+		<div class="col  ns">Top</div>
+	</div>
+	<div class="row align-items-center wf">
+		<div class="col  ns">Middle</div>
+	</div>  
+	<div class="row align-items-end wf">
+		<div class="col  ns2">Bottom</div>
+	</div>
+	
+	<div class="row wf">
+		<div class="col align-self-start ns">Top</div>
+		<div class="col align-self-center ns2">Middle</div>
+		<div class="col align-self-end ns">Bottom</div>
+	</div>
+	
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</html>

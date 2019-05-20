@@ -1,0 +1,27 @@
+.wf {
+	outline: 0px solid black;
+}
+.ns
+{
+	background-color: silver;
+}
+.ns2
+{
+	background-color: gray;
+}
+.even {
+	background-color: #515FFF;
+	min-height: 500px;
+}
+.odd {
+	background-color: #3E90E8;
+	min-height: 500px;
+}
+.light {
+	background-color: white;
+	min-height: 500px;
+}
+
+
+
+	
